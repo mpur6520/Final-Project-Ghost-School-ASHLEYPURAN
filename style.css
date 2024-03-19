@@ -1,0 +1,87 @@
+html,body{
+	height: 99%;
+	width: 99%;
+  background: linear-gradient(#f9f5ff, #ffffff);
+}
+*{
+	box-sizing: border-box;
+}
+.banner{
+	background-image: url(header.png);
+  background-size: cover;
+	margin: 15px;
+	padding: 10px;
+	border: 3px solid #ffffff;
+	box-shadow: 1px 3px 1px 1px #bfafca;
+	text-transform: capitalize;
+	font-family: cursive;
+	height: 145px;
+	text-align: right;
+  color: #7044a7;
+  font-size: 17px;
+  text-shadow: 1px 1px #fff;
+  font-weight: bold;
+}
+h1{
+	font-size: 0.7em;
+}
+
+
+.container{
+	border: 3px solid #ffffff;
+	box-shadow: 1px 3px 1px 1px #bfafca;
+	position: relative;
+	top: 2px;
+	margin: 20px 100px;
+	padding: 10px;
+	height: 750px;
+	overflow: hidden;
+  font-family: cursive;
+  background-image: url(pixart.png);
+  background-size: 1700px 800px;
+  background-repeat: no-repeat;
+}
+.wave{
+	border: #ffffff 1px solid;
+	color: #8f5ea6;
+  text-shadow: 1px 0px #f2f0ff;
+	text-align: center;
+	font-size: 1.3em;
+	height: 35px;
+	overflow: hidden;
+	width: 1000px;
+	position: relative;
+	margin: auto;
+	transition: height 2s;
+	display: block;
+  background-color: rgba(222, 213, 240,0.8);
+  font-weight: bold;
+}
+
+#l1:hover{
+	height: 385px;
+	top:1px;
+	z-index:1;
+}
+
+#easy:hover{
+	height: 518px;
+	top:1px;
+	z-index:1;
+}
+
+#medium:hover{
+	height: 518px;
+	top:1px;
+	z-index:1;
+}
+
+#hard:hover{
+	height: 518px;
+	top:1px;
+	z-index:1;
+}
+
+img{
+  border: 2px solid #fff;
+}
